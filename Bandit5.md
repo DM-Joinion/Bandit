@@ -12,6 +12,11 @@ The password for the next level is stored in a file somewhere under the inhere d
 
 ## Resolution
 
+- SSH connection
+```bash 
+sshpass -p '[pass]' ssh bandit5@bandit.labs.overthewire.org -p 2220
+```
+
 - For this resolution we won't be needing more steps than a one-linner that searches by the properties specified:
 
 ```bash

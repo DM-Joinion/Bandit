@@ -6,6 +6,11 @@ The password for the next level is stored in the file data.txt and is the only l
 
 ## Resolution
 
+- SSH connection
+```bash 
+sshpass -p '[pass]' ssh bandit8@bandit.labs.overthewire.org -p 2220
+```
+
 - In the same directory we find a `data.txt`
 - Opening the file we'll find multiple lines with random characters, all seem to be the password.
 >As the description says, the line only ocurs once.

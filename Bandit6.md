@@ -10,6 +10,11 @@ The password for the next level is stored somewhere on the server and has all of
 
 ## Resolution
 
+- SSH connection
+```bash 
+sshpass -p '[pass]' ssh bandit6@bandit.labs.overthewire.org -p 2220
+```
+
 - For this resolution we won't be needing more steps than a one-linner that searches by the properties specified:
 
 In this case the file is not on users directory, therefore we must search from the root `\`. To avoid filling the terminal with error messages, direct `stderr` to /dev/null so it doesn't show.
