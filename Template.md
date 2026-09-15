@@ -5,10 +5,9 @@
 
 ## Resolution
 
-1.
-
+1. SSH connection
 ```bash 
-
+sshpass -p '[pass]' ssh bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
 2. 
